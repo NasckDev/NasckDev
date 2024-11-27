@@ -39,6 +39,12 @@ Aqui, você encontrará projetos que refletem minha evolução como desenvolvedo
 - **Tecnologias**: React, Next.js, TailwindCSS, TypeScript  
 - **Descrição**: Dashboard dinâmica com login e gráficos de dados em tempo real.  
 - **[Acessar Repositório](https://github.com/NasckDev/Pulse)**
+  
+### **Estudos** - *páginas criadas para estudar*
+- **Status**: Em andamento  
+- **Tecnologias**: React, HTML, CSS, JavaScript
+- **Descrição**: pastas de códigos onde vou subir paginas que estou criando durante meus períodosde aprendizagem para praticar.  
+- **[Acessar Repositório](https://github.com/NasckDev/Estudos)**
 
 ### **Outros Projetos - Em breve**
 - **To-Do List**: Lista de tarefas com React e TypeScript.  
