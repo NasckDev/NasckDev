@@ -17,7 +17,7 @@ Aqui, você encontrará projetos que refletem minha evolução como desenvolvedo
 🔧 **React**, **Next.js**, **TypeScript**, **Angular**, **Vue**, **TailwindCSS**  
 🎯 **Foco** em melhorar a **UX**, otimizar a **performance** e criar aplicações **escaláveis** e **acessíveis**.
 
-🎯 **Objetivo**  
+🥇 **Objetivo**  
 🌐 **Busco sempre inovar e entregar soluções web de alta performance**, com um forte foco na **experiência do usuário** e **acessibilidade**.
 
 ---
@@ -66,7 +66,7 @@ Aqui, você encontrará projetos que refletem minha evolução como desenvolvedo
 ## 🌐 **Onde me Encontrar**
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/alexandre-diogo-nascimento/)  
-[![CodePen](https://img.shields.io/badge/-CodePen-black?style=flat-square&logo=CodePen&logoColor=white)](https://linktr.ee/AleNasckDi)  
+[![CodePen](https://img.shields.io/badge/-CodePen-black?style=flat-square&logo=CodePen&logoColor=white)](https://codepen.io/Alexandre-Diogo)  
 [![Linktree](https://img.shields.io/badge/-Linktree-green?style=flat-square&logo=Linktree&logoColor=white)](https://linktr.ee/AleNasckDi)  
 📩 **Email**: *Alexandre.Diogo.Nascimento@gmail.com*  
 📍 **Localização**: São Paulo, SP, Brasil  
