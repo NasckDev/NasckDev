@@ -34,6 +34,12 @@ Aqui, você encontrará projetos que refletem minha evolução como desenvolvedo
 
 ## 📂 **Projetos**
 
+### **Myportfolio** - *Portifolio Pessoal*
+- **Status**: Em andamento  
+- **Tecnologias**: CSS, HTML e JavaScript 
+- **Descrição**: Página Estática e Responsiva com Informações Relevantes Sobre Minha Carreira.  
+- **[Acessar Repositório](https://github.com/NasckDev/Myportfolio)**
+
 ### **Pulse** - *Dashboard Interativa*
 - **Status**: Em andamento  
 - **Tecnologias**: React, Next.js, TailwindCSS, TypeScript  
