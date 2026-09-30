@@ -1,7 +1,8 @@
 <!--
   Perfil: github.com/NasckDev
   Os SVGs em ./assets são animados (SMIL) e feitos à mão — sem serviço de terceiros.
-  Os workflows em .github/workflows geram a snake e o card de métricas.
+  A snake do README (assets/snake-*.svg) é decorativa e não depende dos dados de contribuição.
+  Os workflows em .github/workflows geram a snake real (branch output) e o card de métricas.
 -->
 
 <div align="center">
@@ -108,17 +109,13 @@ Hoje na **MindMiners** (SaaS de inteligência de mercado). Antes, na **EY**, alo
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NasckDev/NasckDev/output/github-snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/NasckDev/NasckDev/output/github-snake.svg" width="100%" alt="contribuições"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg"/>
+    <img src="./assets/snake-light.svg" width="100%" alt="animação decorativa de cobrinha"/>
   </picture>
 </div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/NasckDev/NasckDev/main/github-metrics.svg" width="100%" alt="métricas do GitHub"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NasckDev&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c9d1d9&line=3178c6&point=61dafb&area=true&area_color=3178c6" width="100%" alt="gráfico de atividade"/>
 </div>
 
 <br/>
