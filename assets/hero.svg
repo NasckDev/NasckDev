@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220">
+        <animate attributeName="stop-color" values="#0b1220;#0f1a33;#0b1220" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#132a5c">
+        <animate attributeName="stop-color" values="#132a5c;#1d3f8a;#132a5c" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#3178c6">
+        <animate attributeName="stop-color" values="#3178c6;#2563eb;#3178c6" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#61dafb"/>
+      <stop offset="100%" stop-color="#3178c6"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" opacity="0.12"/>
+    </pattern>
+    <clipPath id="card"><rect width="900" height="250" rx="16"/></clipPath>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="250" fill="url(#bg)"/>
+    <rect width="900" height="250" fill="url(#dots)"/>
+
+    <!-- luzes flutuantes -->
+    <circle cx="760" cy="60" r="90" fill="#61dafb" opacity="0.18" filter="url(#glow)">
+      <animate attributeName="cy" values="60;90;60" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="860" cy="210" r="70" fill="#3178c6" opacity="0.28" filter="url(#glow)">
+      <animate attributeName="cx" values="860;830;860" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- malha à direita -->
+    <g stroke="#ffffff" stroke-width="1" opacity="0.22" fill="none">
+      <polyline points="640,40 700,20 760,50 820,25 880,60">
+        <animate attributeName="opacity" values="0.15;0.35;0.15" dur="5s" repeatCount="indefinite"/>
+      </polyline>
+      <polyline points="640,40 690,100 760,50 800,120 880,60"/>
+      <polyline points="690,100 720,180 800,120 850,200 880,150"/>
+      <g fill="#ffffff">
+        <circle cx="700" cy="20" r="2.5"/><circle cx="760" cy="50" r="2.5"/><circle cx="820" cy="25" r="2.5"/>
+        <circle cx="690" cy="100" r="2.5"/><circle cx="800" cy="120" r="2.5"/><circle cx="720" cy="180" r="2.5"/>
+        <circle cx="850" cy="200" r="2.5"/>
+      </g>
+    </g>
+
+    <!-- barra de acento -->
+    <rect x="48" y="62" width="6" height="0" rx="3" fill="url(#accent)">
+      <animate attributeName="height" from="0" to="126" begin="0.2s" dur="0.9s" fill="freeze"/>
+    </rect>
+
+    <!-- textos -->
+    <g fill="#ffffff">
+      <text x="72" y="98" font-size="36" font-weight="700" opacity="0">
+        Alexandre Diogo Lopes Nascimento
+        <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.7s" fill="freeze"/>
+      </text>
+      <text x="72" y="136" font-size="21" font-weight="600" fill="#9ed8ff" opacity="0">
+        Senior Front-End Engineer
+        <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.7s" fill="freeze"/>
+      </text>
+      <text x="72" y="170" font-size="16" fill="#c9d6ea" opacity="0">
+        React · TypeScript · Next.js · Angular · Node/NestJS  —  6 anos construindo produtos digitais em escala
+        <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.7s" fill="freeze"/>
+      </text>
+    </g>
+
+    <!-- chips -->
+    <g opacity="0" font-size="12" font-weight="600">
+      <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.6s" fill="freeze"/>
+      <rect x="72" y="192" width="118" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="131" y="209" text-anchor="middle" fill="#ffffff">São Paulo, BR</text>
+      <rect x="200" y="192" width="150" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="275" y="209" text-anchor="middle" fill="#ffffff">MindMiners · atual</text>
+      <rect x="360" y="192" width="185" height="26" rx="13" fill="#22c55e" fill-opacity="0.18" stroke="#22c55e" stroke-opacity="0.5"/>
+      <circle cx="378" cy="205" r="4" fill="#22c55e">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="465" y="209" text-anchor="middle" fill="#bbf7d0">Aberto a vagas Senior</text>
+    </g>
+
+    <!-- handle -->
+    <text x="852" y="232" text-anchor="end" font-size="13" fill="#ffffff" opacity="0.6" font-family="ui-monospace, Menlo, Consolas, monospace">@NasckDev</text>
+  </g>
+</svg>

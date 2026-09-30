@@ -1,85 +1,146 @@
-# 💻 **Bem-vindo ao meu GitHub!**
+<!--
+  Perfil: github.com/NasckDev
+  Os SVGs em ./assets são animados (SMIL) e feitos à mão — sem serviço de terceiros.
+  Os workflows em .github/workflows geram a snake e o card de métricas.
+-->
 
-🎉 Olá! Sou **Alexandre Diogo**, desenvolvedor **Front-End** com uma paixão por construir interfaces modernas e intuitivas.  
-Aqui, você encontrará projetos que refletem minha evolução como desenvolvedor e minha dedicação à criação de soluções inovadoras para a web.
+<div align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Alexandre Diogo Lopes Nascimento — Senior Front-End Engineer"/>
+</div>
 
----
+<br/>
 
-## 🚀 **Sobre Mim**
+<div align="center">
+  <a href="https://www.linkedin.com/in/alexandre-diogo-nascimento/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://nasck-myportifolio.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/></a>
+  <a href="mailto:aleh.dnascimento@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"/></a>
+  <a href="https://codepen.io/Alexandre-Diogo"><img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen"/></a>
+</div>
 
-✨ **Formação**  
-🎓 **Graduado em** **Sistemas de Informação** pela **São Paulo Tech School**.
+<br/>
 
-💼 **Experiência Profissional**  
-🚀 **Atualmente** trabalho na **EY**, prestando serviços para a **Vivo Telefonica**, com foco em **React**, **Next.js** e soluções front-end inovadoras.
+<div align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="Terminal animado com resumo da carreira"/>
+</div>
 
-🛠️ **Tecnologias**  
-🔧 **React**, **Next.js**, **TypeScript**, **Angular**, **Vue**, **TailwindCSS**  
-🎯 **Foco** em melhorar a **UX**, otimizar a **performance** e criar aplicações **escaláveis** e **acessíveis**.
+<br/>
 
-🥇 **Objetivo**  
-🌐 **Busco sempre inovar e entregar soluções web de alta performance**, com um forte foco na **experiência do usuário** e **acessibilidade**.
+Engenheiro front-end com **6 anos** construindo produtos digitais que precisam funcionar em escala. Especialista em **React e TypeScript**, com experiência real de produção em **Angular, Vue/Nuxt, Node.js e NestJS** — entrego o caminho inteiro: refinamento com Produto e Design, solução técnica, testes, rollout gradual com feature flags e acompanhamento de métricas depois do deploy.
 
----
+Hoje na **MindMiners** (SaaS de inteligência de mercado). Antes, na **EY**, alocado no projeto da **Vivo (Telefônica)** — front-end e microsserviços para uma das maiores operações de telecom do Brasil.
 
-## 🛠️ **Habilidades Técnicas**
+<br/>
 
-| **Tecnologias**        | **Ferramentas**       | **Estilização**            |
-|------------------------|-----------------------|----------------------------|
-| JavaScript (ES6+)       | Git & GitHub          | Bootstrap                  |
-| React, Next.js, Angular, Vue | Azure DevOps        | SCSS, Less, TailwindCSS     |
-| TypeScript              | VS Code               | jQuery, Styled-components   |
+<div align="center">
+  <img src="./assets/timeline.svg" width="100%" alt="Linha do tempo da carreira"/>
+</div>
 
----
+<details>
+<summary><b>Ver detalhes de cada experiência</b></summary>
+<br/>
 
-## 📂 **Projetos**
+**MindMiners** · Software Engineer Front-End · ago/2025 – atual · remoto
+- Produto SaaS de pesquisa e inteligência de mercado em React + TypeScript
+- Protótipos Figma → componentes reutilizáveis e acessíveis no Design System da empresa
+- Fluxos complexos: filtros, formulários dinâmicos, modais, painéis redimensionáveis, tooltips e validações
+- Integrações REST e serviços de IA com backends em C# e Python, tratando jornadas assíncronas, erros e regras de negócio
+- Feature flags por plano, rollout gradual, rastreamento de eventos e métricas de adoção
+- Acessibilidade: navegação por teclado, gerenciamento de foco, mensagens de feedback
+- Solução de comunicação entre iframes e modais picture-in-picture
 
-### **Myportfolio** - *Portifolio Pessoal*
-- **Status**: Em andamento  
-- **Tecnologias**: CSS, HTML e JavaScript 
-- **Descrição**: Página Estática e Responsiva com Informações Relevantes Sobre Minha Carreira.  
-- **[Acessar Repositório](https://github.com/NasckDev/Myportfolio)**
+**EY → projeto Vivo (Telefônica)** · Software Engineer Front-End & Microsserviços · jul/2023 – ago/2025 · híbrido
+- Aplicações corporativas de alto tráfego com **React, Angular/AngularJS, Vue.js, Nuxt.js e TypeScript**
+- Microsserviços em **Node.js/NestJS** e contratos de integração REST entre front e back
+- Testes unitários com Jest, code review, investigação e resolução de incidentes em produção
+- CI/CD com Jenkins e ArgoCD; GitHub, GitLab e Azure DevOps
 
-### **Pulse** - *Dashboard Interativa*
-- **Status**: Em andamento  
-- **Tecnologias**: React, Next.js, TailwindCSS, TypeScript  
-- **Descrição**: Dashboard dinâmica com login e gráficos de dados em tempo real.  
-- **[Acessar Repositório](https://github.com/NasckDev/Pulse)**
-  
-### **Estudos** - *páginas criadas para estudar*
-- **Status**: Em andamento  
-- **Tecnologias**: React, HTML, CSS, JavaScript
-- **Descrição**: pastas de códigos onde vou subir paginas que estou criando durante meus períodosde aprendizagem para praticar.  
-- **[Acessar Repositório](https://github.com/NasckDev/Estudos)**
+**EY** · Analista e Desenvolvedor Front-End e SAP Commerce · ago/2022 – ago/2023
+- E-commerce SAP Commerce com internacionalização, integrações via API, feature flags e deploys em produção
 
-### **Outros Projetos - Em breve**
-- **To-Do List**: Lista de tarefas com React e TypeScript.  
-- **Dashboard Financeiro**: Controle de finanças pessoais com gráficos interativos.  
-- **E-commerce**: Protótipo de loja virtual com SSR (Server-Side Rendering) usando Next.js.
+**EY** · Trainee SAP Sales e SAP Commerce · fev/2021 – ago/2022
+- Customização de objetos, telas e fluxos com C# e ABSL no SAP Application Studio
 
----
+**Partners Digital** · Estagiário em Desenvolvimento SAP · ago/2020 – fev/2021
+- Objetos no SAP Sales C4C, front-end, testes e melhorias de usabilidade
 
-## 📊 **Estatísticas do GitHub**
+</details>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=NasckDev&theme=radical)
+<br/>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NasckDev&show_icons=true&theme=radical)
+<div align="center">
+  <img src="./assets/skills.svg" width="100%" alt="Stack e nível de domínio"/>
+</div>
 
-![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=NasckDev&layout=compact&theme=radical)
+<div align="center">
+  <br/>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,angular,vue,nuxtjs,redux,tailwind,styledcomponents,sass,nodejs,nestjs,jest,cypress,vite,webpack,docker,git,gitlab,figma&perline=11" alt="tecnologias"/></a>
+</div>
 
----
+<br/>
 
-## 🌐 **Onde me Encontrar**
+## Projeto em destaque
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/alexandre-diogo-nascimento/)  
-[![CodePen](https://img.shields.io/badge/-CodePen-black?style=flat-square&logo=CodePen&logoColor=white)](https://codepen.io/Alexandre-Diogo)  
-[![Linktree](https://img.shields.io/badge/-Linktree-green?style=flat-square&logo=Linktree&logoColor=white)](https://linktr.ee/AleNasckDi)  
-📩 **Email**: *Alexandre.Diogo.Nascimento@gmail.com*  
-📍 **Localização**: São Paulo, SP, Brasil  
+<table>
+  <tr>
+    <td width="45%">
+      <a href="https://github.com/NasckDev/Myportfolio">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NasckDev&repo=Myportfolio&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3178c6&icon_color=61dafb" alt="Myportfolio"/>
+      </a>
+    </td>
+    <td>
+      <b>Myportfolio</b> — React, TypeScript, Vite, Tailwind, Motion/GSAP<br/><br/>
+      <sub>
+      • Componentes acessíveis e animações com Motion/GSAP<br/>
+      • Função serverless com validação de respostas, credenciais restritas ao servidor e fallback para falhas<br/>
+      • Testes automatizados da API: sucesso, config ausente, payload inválido e falha de serviço<br/>
+      • Validação antes do build; deploy com Vercel + GitHub Actions
+      </sub><br/><br/>
+      <a href="https://nasck-myportifolio.vercel.app">Ver no ar</a> · <a href="https://github.com/NasckDev/Myportfolio">Código-fonte</a>
+    </td>
+  </tr>
+</table>
 
----
+<!-- Novos projetos: duplique o bloco acima trocando repo=NOME-DO-REPO -->
 
-## ✨ **Obrigado por visitar meu perfil!**
+<br/>
 
-Se você está interessado em trocar ideias sobre tecnologia, aprender ou colaborar em projetos, estou sempre aberto a novas oportunidades.  
-**Vamos criar algo incrível juntos!** 💡
+## Atividade
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NasckDev/NasckDev/output/github-snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/NasckDev/NasckDev/output/github-snake.svg" width="100%" alt="contribuições"/>
+  </picture>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NasckDev/NasckDev/main/github-metrics.svg" width="100%" alt="métricas do GitHub"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NasckDev&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c9d1d9&line=3178c6&point=61dafb&area=true&area_color=3178c6" width="100%" alt="gráfico de atividade"/>
+</div>
+
+<br/>
+
+## Formação & Certificações
+
+| | |
+|:--|:--|
+| **São Paulo Tech School (SPTech)** | Análise e Desenvolvimento de Sistemas · 2020 – 2022 |
+| **Etec Jaraguá** | Técnico em Informática · 2018 – 2019 |
+| **EY** | Artificial Intelligence – AI Engineering (Bronze) · 2025 |
+| **Lund University** | IA, negócios e o futuro do trabalho · 2025 |
+| **EY** | SAP Foundation · 2021 |
+| **Idiomas** | Português nativo · Inglês intermediário · Espanhol intermediário |
+
+<br/>
+
+<div align="center">
+  <b>Aberto a oportunidades como Senior Front-End Engineer</b> — remoto ou híbrido em São Paulo<br/><br/>
+  <a href="https://www.linkedin.com/in/alexandre-diogo-nascimento/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:aleh.dnascimento@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"/></a>
+  <a href="https://nasck-myportifolio.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/></a>
+  <br/><br/>
+  <sub>São Paulo, SP · Brasil</sub>
+</div>

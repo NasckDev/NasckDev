@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3178c6"/><stop offset="100%" stop-color="#61dafb"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="track"><rect x="290" y="0" width="430" height="330"/></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="899" height="329" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <text x="32" y="38" fill="#e6edf3" font-size="16" font-weight="700">Stack &amp; domínio</text>
+  <text x="868" y="38" text-anchor="end" fill="#8b949e" font-size="12">produção · 6 anos</text>
+
+  <g font-size="13">
+    <!-- TypeScript -->
+    <text x="32" y="78" fill="#e6edf3" font-weight="600">TypeScript</text>
+    <rect x="290" y="66" width="430" height="14" rx="7" fill="#21262d"/>
+    <rect x="290" y="66" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="385" begin="0.2s" dur="1.1s" fill="freeze"/></rect>
+    <text x="740" y="78" fill="#61dafb" font-size="12" font-weight="600" opacity="0">Especialista<animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- React / Next -->
+    <text x="32" y="110" fill="#e6edf3" font-weight="600">React · Next.js</text>
+    <rect x="290" y="98" width="430" height="14" rx="7" fill="#21262d"/>
+    <rect x="290" y="98" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="385" begin="0.35s" dur="1.1s" fill="freeze"/></rect>
+    <text x="740" y="110" fill="#61dafb" font-size="12" font-weight="600" opacity="0">Especialista<animate attributeName="opacity" from="0" to="1" begin="1.35s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- Angular -->
+    <text x="32" y="142" fill="#e6edf3" font-weight="600">Angular · RxJS · Signals</text>
+    <rect x="290" y="130" width="430" height="14" rx="7" fill="#21262d"/>
+    <rect x="290" y="130" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="365" begin="0.5s" dur="1.1s" fill="freeze"/></rect>
+    <text x="740" y="142" fill="#c9d1d9" font-size="12" font-weight="600" opacity="0">Avançado<animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- Vue -->
+    <text x="32" y="174" fill="#e6edf3" font-weight="600">Vue · Nuxt</text>
+    <rect x="290" y="162" width="430" height="14" rx="7" fill="#21262d"/>
+    <rect x="290" y="162" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="330" begin="0.65s" dur="1.1s" fill="freeze"/></rect>
+    <text x="740" y="174" fill="#c9d1d9" font-size="12" font-weight="600" opacity="0">Avançado<animate attributeName="opacity" from="0" to="1" begin="1.65s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- Node / Nest -->
+    <text x="32" y="206" fill="#e6edf3" font-weight="600">Node.js · NestJS · REST</text>
+    <rect x="290" y="194" width="430" height="14" rx="7" fill="#21262d"/>
+    <rect x="290" y="194" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="310" begin="0.8s" dur="1.1s" fill="freeze"/></rect>
+    <text x="740" y="206" fill="#c9d1d9" font-size="12" font-weight="600" opacity="0">Sólido<animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- Testes -->
+    <text x="32" y="238" fill="#e6edf3" font-weight="600">Jest · Cypress · Playwright</text>
+    <rect x="290" y="226" width="430" height="14" rx="7" fill="#21262d"/>
+    <rect x="290" y="226" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="320" begin="0.95s" dur="1.1s" fill="freeze"/></rect>
+    <text x="740" y="238" fill="#c9d1d9" font-size="12" font-weight="600" opacity="0">Avançado<animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- CI/CD -->
+    <text x="32" y="270" fill="#e6edf3" font-weight="600">CI/CD · Jenkins · ArgoCD</text>
+    <rect x="290" y="258" width="430" height="14" rx="7" fill="#21262d"/>
+    <rect x="290" y="258" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="320" begin="1.1s" dur="1.1s" fill="freeze"/></rect>
+    <text x="740" y="270" fill="#c9d1d9" font-size="12" font-weight="600" opacity="0">Sólido<animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- A11y / Perf -->
+    <text x="32" y="302" fill="#e6edf3" font-weight="600">Acessibilidade · Performance</text>
+    <rect x="290" y="290" width="430" height="14" rx="7" fill="#21262d"/>
+    <rect x="290" y="290" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" from="0" to="385" begin="1.25s" dur="1.1s" fill="freeze"/></rect>
+    <text x="740" y="302" fill="#61dafb" font-size="12" font-weight="600" opacity="0">Especialista<animate attributeName="opacity" from="0" to="1" begin="2.25s" dur="0.4s" fill="freeze"/></text>
+  </g>
+
+  <!-- brilho que percorre as barras -->
+  <g clip-path="url(#track)">
+    <rect x="170" y="60" width="120" height="260" fill="url(#shine)" opacity="0.6">
+      <animate attributeName="x" from="170" to="740" begin="2.6s" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
